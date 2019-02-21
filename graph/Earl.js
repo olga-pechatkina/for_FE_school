@@ -63,7 +63,7 @@ class Earl {
 
     }
 
-    findWay(vortex1, vortex2) {
+   /* findWay(vortex1, vortex2) {
         const key_array = Object.keys(this.structure);
         let line_array = [];
         let array = [];
@@ -82,7 +82,7 @@ class Earl {
         }
 
         return array;
-    }
+    }*/
 
 }
 
@@ -124,5 +124,5 @@ let Adjacent = newEarl.addVortex({
     }
 });
 Adjacent = newEarl.addEdge('d', 'f', 0);
-Adjacent = newEarl.findWay('a', 'b');
+//Adjacent = newEarl.findWay('a', 'b');
 console.log(Adjacent);
