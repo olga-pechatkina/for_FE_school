@@ -9,95 +9,89 @@
     margin-bottom: 90px;
 }
 
-.logo
-{
-position:absolute;
-background-image: url('.././logo.jpg');
-height: 142px;
-width: 142px;
-background-size: cover;
-top: 142px;
-left: 10%;
+.logo {
+    position:absolute;
+    background-image: url('.././logo.jpg');
+    height: 142px;
+    width: 142px;
+    background-size: cover;
+    top: 142px;
+    left: 10%;
 }
 
-.lines1
-{
-margin-bottom: 36px;
-margin-top: 48px;
+.lines1 {
+    margin-bottom: 36px;
+    margin-top: 48px;
 }
 
-.contact
-{
-background-image: url('.././gosling.jpg');
-height: 48px;
-width: 48px;
-background-size: cover;
-margin-right:12px;
+.contact {
+    background-image: url('.././gosling.jpg');
+    height: 48px;
+    width: 48px;
+    background-size: cover;
+    margin-right:12px;
 }
 
-.loremUrl
-{
-height: 18px;
-width: 18px;
-background-size: cover;
-background-image: url('.././web.svg');
-margin-right:12px;
+.loremUrl {
+    height: 18px;
+    width: 18px;
+    background-size: cover;
+    background-image: url('.././web.svg');
+    margin-right:12px;
 }
 
-.loremLIn
-{
-height: 18px;
-width: 18px;
-background-size: cover;
-background-image: url('.././in.svg');
-margin-right:12px;
+.loremLIn {
+    height: 18px;
+    width: 18px;
+    background-size: cover;
+    background-image: url('.././in.svg');
+    margin-right:12px;
 }
 
-.item-economy
-{
-background-image: url(.././internet.svg);
-background-color: #554a8f;
-height: 18px;
-width: 18px;
-background-size: cover;
-margin-right:12px;
+.item-economy {
+    background-image: url(.././internet.svg);
+    background-color: #554a8f;
+    height: 18px;
+    width: 18px;
+    background-size: cover;
+    margin-right:12px;
 }
 
-.item-logo
-{
-height: 80px;
-width: 80px;
-background-size: cover;
-background-image: url('.././item-logo.png');
-margin-right:12px;
+.item-logo {
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    background-image: url('.././item-logo.png');
+    margin-right:12px;
 }
 
-.bottom
-{
-background-color:#F8F8F8;
-padding: 70px 0;
+.bottom {
+    background-color:#F8F8F8;
+    padding: 70px 0;
 }
-.block-small-item
-{
-background-color:#F8F8F8;
-width: 210px; 	
-display: inline-block;
-}
-
-.block-item
-{
-background-color:white;
-width: 250px; 	
-display: inline-block;
+.block-small-item {
+    background-color:#F8F8F8;
+    width: 230px; 	
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
-.block-item-mid
-{
-background-color:white;
-width: 250px; 	
-display: inline-block;
-margin-left: 36px;
-margin-right: 36px;
+.block-item {
+    background-color:white;
+    width: 250px; 	
+    height: 360px;
+    margin: auto;
+    padding: 10px;
+    display: inline-block;
+}
+
+.block-item-mid {
+    background-color:white;
+    width: 250px; 	
+    display: inline-block;
+    margin-left: 200px;
+    padding: 10px;
+    height: 360px;
 }
 
 .btn-outline {
@@ -109,7 +103,7 @@ margin-right: 36px;
 .btn-details {
     background-color: #fea500;
 	color:#ffffff;
-	width: 250px;
+	width: 230px;
 }
 
 .btn-primary.btn-outline {
@@ -121,61 +115,76 @@ margin-right: 36px;
 }
 
 #custom-search-input {
-        margin:0;
-        padding: 0;
-		position:relative;
-    }
+    margin:0;
+    padding: 0;
+    position:relative;
+}
  
 #custom-search-input .search-query {
-        padding-left: 25px;
-		margin-top: 16px;
-        border-radius: 3px;
-    }
+    padding-left: 25px;
+    margin-top: 16px;
+    border-radius: 3px;
+    width: 300px;
+}
  
 .search-query:focus + button {
-        z-index: 3;   
-    }
-
-.search
-{
-margin-top: 16px;
-height: 18px;
-width: 18px;
-background-size: cover;
-background-image: url('.././search.svg');
-position: absolute;
-right: 175px;
-top: 4px;
-}	
-
-.small-text
-{
-font-size:12px;
+    z-index: 3;   
 }
 
-.whole-screen
-{
-width:80%;
-margin-bottom:40px;
+.search {
+    margin-top: 16px;
+    height: 18px;
+    width: 18px;
+    background-size: cover;
+    background-image: url('.././search.svg');
+    position: absolute;
+    right: 275px;
+    top: 4px;
+}	
+
+.small-text {
+    font-size:12px;
+}
+
+.whole-screen {
+    width:80%;
+    margin-bottom:40px;
+}
+
+.text-block {   
+    display: inline-block;
+    margin-top: 5px;
 }
 
 @media(max-width:768px){
 	.header {
         height:75px; 	
 	}
-	.h1
-	{
+	.h1 {
 	    margin-top: px;
 		font-size: 1px;
 	}
-    .center-cropped{
+    .center-cropped {
         height:45px; 
     }
-	.logo
-	{
+	.logo {
 		height:70px;
 		width:70px;
 		top: 35px;
 		left: 7%;
 	}
+   
+    .block-item-mid {
+        background-color:white;
+        width: 250px; 	
+        display: inline-block;
+        padding: 10px;
+        height: 360px;
+        margin: auto;
+    }
+
+    .pull-right{
+        float: none!important;
+    }
+    
 }
