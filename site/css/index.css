@@ -54,7 +54,28 @@
     height: 18px;
     width: 18px;
     background-size: cover;
-    margin-right:12px;
+    margin-right:6px;
+    display: inline-block;
+}
+
+.item-culture {
+    height: 18px;
+    width: 18px;
+    background-size: cover;
+    background-image: url('.././culture.svg');
+    background-color: #c0cb40;
+    margin-right:6px;
+    display: inline-block;
+}
+
+.item-handshake {
+    height: 18px;
+    width: 18px;
+    background-size: cover;
+    background-image: url('.././handshake.svg');
+    background-color: #245d7b;
+    margin-right:6px;
+    display: inline-block;
 }
 
 .item-logo {
@@ -69,9 +90,10 @@
     background-color:#F8F8F8;
     padding: 70px 0;
 }
+
 .block-small-item {
     background-color:#F8F8F8;
-    width: 230px; 	
+    width: 250px; 	
     display: inline-block;
     margin-bottom: 10px;
 }
